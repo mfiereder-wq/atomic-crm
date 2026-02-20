@@ -28,7 +28,7 @@ export default defineConfig({
     "import.meta.env.VITE_SUPABASE_URL": JSON.stringify(
       process.env.VITE_SUPABASE_URL ?? "https://demo.example.org",
     ),
-    "import.meta.env.VITE_SUPABASE_ANON_KEY": JSON.stringify(
+   "import.meta.env.VITE_SUPABASE_ANON_KEY": JSON.stringify(
       process.env.VITE_SUPABASE_ANON_KEY ?? "https://demo.example.org", 
     ),
   },
